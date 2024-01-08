@@ -200,6 +200,7 @@ h1 {
 }
 
 /* Search Bar form */
+/* Form container start */
 .form-container {
   display: none;
   width: 90%;
@@ -243,4 +244,26 @@ h1 {
   justify-content: center;
   border-radius: 100%;
   margin-bottom: 1px;
+}
+
+/* Form container End */
+
+.errorContainer {
+  display: none;
+}
+
+.errorContainer.active {
+  display: flex;
+  gap: 1rem 0;
+}
+
+.errorContainer p {
+  text-align: center;
+}
+
+.errorContainer img {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
